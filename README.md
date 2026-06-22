@@ -1,9 +1,7 @@
 # NYC Taxi Fare Prediction
-
 Prédiction du prix d'une course de taxi à New York via un modèle LightGBM, exposé par une API FastAPI dockerisée et consommé par un dashboard R Shiny.
 
 ## Architecture du projet
-
 ```
 Projet_Machine_Learning/
 │
@@ -87,3 +85,16 @@ LightGBM (lgbm_model2.pkl)
       ▼
 Réponse JSON → Affichage Shiny
 ```
+
+## Dashboard et API
+
+<table>
+  <tr>
+    <td align="center"><b>Conteneur Docker</b></td>
+    <td align="center"><b>Dashboard R Shiny </b></td>
+  </tr>
+  <tr>
+    <td><img width="100%" alt="Dashboard" src="https://github.com/user-attachments/assets/9ab49d89-4671-4dfd-b618-b4892e9e5ecf" /></td>
+    <td><img width="100%" alt="Docker" src="https://github.com/user-attachments/assets/3dbd487e-41f1-4f69-8567-ad00d83323b2" /></td>
+  </tr>
+</table>
